@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="AVDo6t" name="Live Lessons Generator" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" companyName="Meta Function" companyCopyright="Meta Function"
+              companyWebsite="metafunction.co.uk/" companyEmail="info@metafunction.co.uk">
+  <MAINGROUP id="O9vAjQ" name="Live Lessons Generator">
+    <GROUP id="{F639125C-F758-AA96-D359-02760F051FCA}" name="Source">
+      <FILE id="wyQ2LG" name="MetafunctionLogoWhite.png" compile="0" resource="1"
+            file="Source/MetafunctionLogoWhite.png"/>
+      <FILE id="IUuEPA" name="MetaLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/MetaLookAndFeel.cpp"/>
+      <FILE id="aFdc8l" name="MetaLookAndFeel.h" compile="0" resource="0"
+            file="Source/MetaLookAndFeel.h"/>
+      <FILE id="Oa8KRF" name="InterfaceDefines.h" compile="0" resource="0"
+            file="Source/InterfaceDefines.h"/>
+      <FILE id="xRedf5" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="jaES00" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="HA8vYe" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Pg86ld" name="PageEditor.cpp" compile="1" resource="0" file="Source/PageEditor.cpp"/>
+      <FILE id="dvhqoz" name="PageEditor.h" compile="0" resource="0" file="Source/PageEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Live Lessons Generator"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Live Lessons Generator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
